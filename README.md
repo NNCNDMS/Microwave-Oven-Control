@@ -15,6 +15,8 @@ I did not want to create any custom PCB so I combined a bunch of off the shelve 
 
 The interesting part is that all functional safety aspects are taken care of by the electric circuit of the microwave oven. There is no need to make the electronics functional save.
 
+Another interesting aspect is that I am using the LED&Key module as a multiplexer for the button input. The six buttons are directly soldered to six buttons of the LED&Key module. Therefore, no digital I/Os of the ESP are necessary to control the buttons.
+
 The setup is now running very smooth since a long time so I can recomment copying to anybody who wants to run their own micro wave oven electronics.
 
 ![mw](https://github.com/user-attachments/assets/64d40f81-95f6-4380-bd15-08df3b3603f4)
